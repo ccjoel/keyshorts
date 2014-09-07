@@ -1,0 +1,42 @@
+
+#searchPForm{
+    width: 440px;
+    left: 50%;
+    /*line-height: 200px;*/
+    margin: auto;
+    margin-top: -10px;
+    margin-left: -234px;
+    position: absolute;
+    top: 37%;
+}
+
+#searchPForm a{
+    text-decoration: none;
+}
+
+#id_program_search {
+    font-size: 30px;
+    border: 1px dashed gray;
+    text-transform: none;
+    font-family: helvetica-bold;
+}
+
+#submit{
+    height: 36.25px;
+    font-size: 25px;
+    margin-left: -2px;
+    color: white;
+    background-color: #302e2b;
+    border: 1px solid #302e2b;
+    padding: 6px 5px 0 5px;
+    cursor: pointer;
+}
+
+#loginsubmit{
+    font-size: 14px;
+    height: 20px;
+    color: white;
+    background-color: #302e2b;
+    border: 1px solid #302e2b;
+    padding: 1px 5px 0 5px;
+}

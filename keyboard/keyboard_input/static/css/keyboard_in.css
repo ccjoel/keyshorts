@@ -1,0 +1,51 @@
+/* 
+    Document   : keyboard_in.css
+    Created on : Dec 2, 2012, 11:36:34 AM
+    Author     : Joel Quiles Baker
+    Description:
+        Specific for the keyboard input page.
+*/
+
+root { 
+    display: block;
+}
+
+#keyboard_form {
+    margin: auto;
+    text-align: left;
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 1.5em;
+    top: 10em;
+    padding: 2em;
+    width: 72em;
+    height: 32em;
+}
+
+#keyboard_form h4 {
+    margin: auto;
+    margin-left: 28em;
+    padding-top: 4em;
+}
+
+#keyboard {
+    top: 2.9em;
+    margin-top: -18em;
+    position: relative;
+    margin-left: -2em;
+}
+
+#previewIframe {
+   margin:0;
+   margin-left:27em;
+   position: relative;
+   border: none;
+   margin-top: 0em;
+}
+
+#searchPForm{
+    top: 3em;
+    margin-left: 0;
+    position: absolute;
+    left: 3.4em;
+}

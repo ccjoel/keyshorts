@@ -1,0 +1,29 @@
+/* 
+    Document   : usability
+    Created on : Oct 14, 2012, 12:01:50 AM
+    Author     : Joel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#tooltip { 
+    display: block;
+    position: absolute;
+    width: 10em;
+    top: 10em;
+    left: 29%;
+    display: none;
+    z-index: 300;
+    border: 1px dashed #D1D5F5;
+    padding: .5em;
+}
+
+
+#main {
+    border: 1px solid black;
+    width: 17em;
+    height: 24em;
+    position: absolute;
+    top: 6em;
+    left: 10em;
+}

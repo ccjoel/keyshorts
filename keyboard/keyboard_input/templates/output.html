@@ -1,0 +1,134 @@
+
+    <link REL=StyleSheet HREF="../../../static/css/main.css" TYPE="text/css" MEDIA=screen>
+    <link rel=StyleSheet href="../../../static/css/keyboard.css" type="text/css" media=screen>
+    <link rel=StyleSheet href="../../../static/css/keyboard_out.css" type="text/css" media=screen>
+
+    <!--[if gte IE 5.5]>
+<style type="text/css"> 
+@import "./css/ie.css"; 
+</style> 
+<![endif]-->
+
+    <link rel="icon"
+          type="image/png"
+          href="../../../static/img/favicon.png">
+
+<div id="out">
+
+<div id="wrapper">
+<div id="tooltip">
+    <h1 id="keyTitle"></h1>
+    <p id="shortcutDesc"></p>
+</div>
+
+    <div id="keyboard" style="top:27em">
+
+        <!--TOP ROW-->
+                <!--Letters-->
+        <div class="key topKeys" id="Esc"></div>
+        <div class="key topKeys" id="F1"></div>
+        <div class="key topKeys" id="F2"></div>
+        <div class="key topKeys" id="F3"></div>
+        <div class="key topKeys" id="F4"></div>
+        <div class="key topKeys" id="F5"></div>
+        <div class="key topKeys" id="F6"></div>
+        <div class="key topKeys" id="F7"></div>
+        <div class="key topKeys" id="F8"></div>
+        <div class="key topKeys" id="F9"></div>
+        <div class="key topKeys" id="F10"></div>
+        <div class="key topKeys" id="F11"></div>
+        <div class="key topKeys" id="F12"></div>
+        <div class="key topKeys" id="PrintScreen"></div>
+        <div class="key topKeys" id="ScrollLock"></div>
+        <div class="key topKeys" id="PauseBreak"></div>
+        <!--command-->
+        <div class="key bottomKeys sticky" id="LCtrl"></div>
+        <div class="key bottomKeys sticky" id="LAlt"></div>
+        <div class="key bottomKeys sticky" id="LWin"></div>
+        <div class="key bottomKeys sticky" id="Space"></div>
+        <div class="key bottomKeys sticky" id="RCtrl"></div>
+        <div class="key bottomKeys sticky" id="RAlt"></div>
+        <div class="key bottomKeys sticky" id="RWin"></div>
+        <div class="key bottomKeys sticky" id="Menu"></div>
+
+        <!-- Arrow keys -->
+        <div class="key bottomKeys" id="Left"></div>
+        <div class="key bottomKeys" id="Bottom"></div>
+        <div class="key bottomKeys" id="Right"></div>
+        <div class="key row4" id="Up"></div>
+
+        <!--Row4-->
+                <!--LETTERS-->
+        <div class="key row4 letters" id="Z"></div>
+        <div class="key row4 letters" id="X"></div>
+        <div class="key row4 letters" id="C"></div>
+        <div class="key row4 letters" id="V"></div>
+        <div class="key row4 letters" id="B"></div>
+        <div class="key row4 letters" id="N"></div>
+        <div class="key row4 letters" id="M"></div>
+        <!--Others 4-->
+        <div class="key row4 letters" id="LT"></div>
+        <div class="key row4 letters" id="GT"></div>
+        <div class="key row4 letters" id="QS"></div>
+        <div class="key row4 sticky" id="LShift"></div>
+        <div class="key row4 sticky" id="RShift"></div>
+        <!--Row 3-->
+        <div class="key row3 sticky" id="Enter"></div>
+        <div class="key row3 sticky" id="Quotes"></div>
+        <div class="key row3 sticky" id="Colon"></div>
+        <!--LETTERS-->
+        <div class="key row3 sticky" id="L"></div>
+        <div class="key row3 sticky" id="K"></div>
+        <div class="key row3 sticky" id="J"></div>
+        <div class="key row3 sticky" id="H"></div>
+        <div class="key row3 sticky" id="G"></div>
+        <div class="key row3 sticky" id="F"></div>
+        <div class="key row3 sticky" id="D"></div>
+        <div class="key row3 sticky" id="S"></div>
+        <div class="key row3 sticky" id="A"></div>
+        <div class="key row3 sticky" id="Caps"></div>
+        <!-- Row 2 -->
+        <div class="key row2 sticky" id="DS"></div>
+        <div class="key row2 sticky" id="RB"></div>
+        <div class="key row2 sticky" id="LB"></div>
+        <!--Letters-->
+        <div class="key row2 sticky" id="P"></div>
+        <div class="key row2 sticky" id="O"></div>
+        <div class="key row2 sticky" id="I"></div>
+        <div class="key row2 sticky" id="U"></div>
+        <div class="key row2 sticky" id="Y"></div>
+        <div class="key row2 sticky" id="T"></div>
+        <div class="key row2 sticky" id="R"></div>
+        <div class="key row2 sticky" id="E"></div>
+        <div class="key row2 sticky" id="W"></div>
+        <div class="key row2 sticky" id="Q"></div>
+        <div class="key row2 sticky" id="TAB"></div>
+
+        <div class="key row2 sticky" id="Delete"></div>
+        <div class="key row2 sticky" id="End"></div>
+        <div class="key row2 sticky" id="PDown"></div>
+
+        <!--Row 1-->
+        <div class="key row1 sticky" id="Tilde"></div>
+        <div class="key row1 sticky" id="n1"></div>
+        <div class="key row1 sticky" id="n2"></div>
+        <div class="key row1 sticky" id="n3"></div>
+        <div class="key row1 sticky" id="n4"></div>
+        <div class="key row1 sticky" id="n5"></div>
+        <div class="key row1 sticky" id="n6"></div>
+        <div class="key row1 sticky" id="n7"></div>
+        <div class="key row1 sticky" id="n8"></div>
+        <div class="key row1 sticky" id="n9"></div>
+        <div class="key row1 sticky" id="n0"></div>
+        <div class="key row1 sticky" id="Dash"></div>
+        <div class="key row1 sticky" id="Plus"></div>
+        <div class="key row1 sticky" id="Backspace"></div>
+        <div class="key row1 sticky" id="Insert"></div>
+        <div class="key row1 sticky" id="Home"></div>
+        <div class="key row1 sticky" id="PUP"></div>
+    </div><!-- keyboard -->
+
+</div><!-- wrapper -->
+
+<script src="../../../static/jmvc/jquery/jquery.js"></script>
+<script src="../../../static/jmvc/steal/steal.js?keyboard_app"></script>

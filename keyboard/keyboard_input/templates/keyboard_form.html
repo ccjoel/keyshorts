@@ -1,0 +1,40 @@
+<html>
+
+    {% include 'login.html' %}
+    {% include 'searchBar.html' %}
+
+    
+
+    {% if form.errors %}
+    <p style="color: red;">
+        Please correct the error{{ form.errors|pluralize }} below.
+    </p>
+    {% endif %}
+
+<div id="errors"></div>
+
+<div id="keyboard_form">
+
+        <form id="form{{form.scheme_id}}" action="/keyboard/input/{{form.scheme_id}}" method="post">{% csrf_token %}
+            <table>
+                {% for field in form %}
+                <tr>{{field.errors}}</tr>
+                <tr>
+                    <td class="field-row">{{field.label_tag}}&nbsp:</td><td> {{ field }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </form>
+        <br />
+    <p><button id="add">ADD</button></p>
+
+    {% include 'input.html' %}
+
+    <h4>Scheme Preview:</h4>
+
+    <iframe id="previewIframe" src="/schemes/preview/{{form.scheme_id}}" height="250" width="1000"></iframe>
+
+    </div><!-- Keyboard Form-->
+
+    </body>
+</html>

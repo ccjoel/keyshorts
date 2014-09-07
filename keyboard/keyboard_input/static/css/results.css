@@ -1,0 +1,59 @@
+#resultsbox {
+    position: relative;
+    top: 10em;
+    /*border: 2px solid #1A1717;*/
+    min-height: 14em;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: 3em;
+    text-align: left;
+}
+
+#searchPForm {
+    top: 3em;
+    left: 18.6em;
+    margin-left: 0;
+    left: 3.3em;
+}
+
+#resultsBox h2 {
+    margin-bottom: 1em;
+    padding-left: .25em;
+}
+
+.program-item-container {
+    width: 17em;
+    border: 1px dashed #D1D5F5;
+    text-align: left;
+    display: inline-block;
+    padding: .5em;
+    min-height: 6em;
+    margin: .5em;
+}
+
+.program-item-container img {
+    float: left;
+    padding:.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+.program-item-container p {
+    font-size:12;
+}
+
+.program-item {
+    vertical-align: top;
+    display:inline;
+    font-size:14;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.desc {
+    display:inline;
+    float: left;
+    text-transform: none;
+    width: 13em;
+}

@@ -1,0 +1,539 @@
+#keyboard {
+    height: 14.5em;
+    width: 45em;
+    z-index: 55;   
+    background: url('../img/keyboard/keyboard.png') no-repeat;
+    background-size: contain;
+    top: 28em;
+    left: 30em; /*25% earlier*/
+    position: absolute;
+}
+
+/*
+*   Key Mappings
+*/
+
+.key {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    cursor: pointer;
+    position: absolute;
+    height: 1.9em;
+}
+
+.letters {
+    width: 1.82em;
+}
+
+/*
+* Top Keys
+*/
+
+.topKeys {
+    bottom: 12.1em;
+    width: 1.82em;
+}
+
+#Esc {
+    left: .55em;
+    background-color: red;
+}
+
+#F1 {
+    left: 3.83em;
+    background-color: blue;
+}
+
+#F2 {
+    left: 5.73em;
+    background-color: green;
+}
+#F3 {
+    left: 7.65em;
+    background-color: yellow;
+}
+#F4 {
+    left: 9.55em;
+    background-color: black;
+}
+#F5 {
+    left: 12.55em;
+    background-color: orange;
+}
+#F6 {
+    left: 14.43em;
+    background-color: brown;
+}
+#F7 {
+    left: 16.4em;
+    background-color: silver;
+}
+#F8 {
+    left: 18.25em;
+    background-color: gold;
+}
+#F9 {
+    left: 21.31em;
+    background-color: purple;
+}
+#F10 {
+    left: 23.2em;
+    background-color: magenta;
+}
+#F11 {
+    left: 25.14em;
+    background-color: cyan;
+}
+#F12 {
+    left: 27.03em;
+    background-color: firebrick;
+}
+
+#PrintScreen {
+    width: 1.8em;
+    background-color: forestGreen;
+    left: 29.99em;
+}
+
+#ScrollLock {
+    width: 1.8em;
+    background-color: steelBlue;
+    left: 31.99em;
+}
+
+#PauseBreak {
+    width: 1.8em;
+    background-color: lightCoral;
+    left: 33.83em;
+}
+
+/*
+* Bottom Keys
+*/
+
+.bottomKeys {
+    bottom: .6em;
+    width: 2.4em;
+    background-color: graytext;
+}
+
+#LCtrl{
+    left: .55em;
+    width: 2.75em;
+    background-color: red;
+}
+
+#LWin{
+    left: 3.35em;
+    background-color: yellow;
+}
+
+#LAlt{
+    left: 5.8em;
+    background-color: blue;
+}
+
+#Space {
+    left: 8.34em;
+    width: 10.3em;
+    background-color: #29FF00;
+}
+
+#RCtrl {
+    left: 26.26em;
+    width: 2.5em;
+    background-color: cyan;
+}
+
+#RAlt {
+    left: 18.7em;
+    background-color: lightSalmon;
+}
+
+#RWin {
+    left: 21.18em;
+    background-color: black;
+}
+
+#Menu {
+    left: 23.65em;
+    background-color: yellow;
+}
+
+#Left {
+    left: 29.99em;
+    width: 1.8em;
+    background-color: coral;
+}
+
+#bottom {
+    left: 31.87em;
+    width: 1.8em;
+}
+
+#right {
+    left: 33.8em;
+    background-color: green;
+    width: 1.8em;
+}
+
+#up {
+    width: 1.8em;
+    background-color: red;
+    left: 31.91em;
+}
+
+/*
+*  Row 4
+*/
+
+.row4 {
+    bottom: 2.6em;
+}
+
+/*Row 4 Letters*/
+
+#Z {
+    background-color: black;
+    left: 5.2em;
+}
+
+#X {
+    background-color: orange;
+    left: 7.1em;
+}
+
+#C {
+    background-color: brown;
+    left: 9em;
+}
+
+#V {
+    background-color: gray;
+    left: 10.93em;
+}
+
+#B {
+    background-color: gold;
+    left: 12.8em;
+}
+
+#N {
+    background-color: purple;
+    left: 14.73em;
+}
+
+#M {
+    background-color: fuchsia;
+    left: 16.64em;
+}
+
+/*Row 4 Other*/
+
+#LSHIFT {
+    left: 0.5em;
+    background-color: green;
+    width: 4.6em;
+}
+
+#RShift {
+    left: 24.26em;
+    background-color: green;
+    width: 4.6em;
+}
+
+#LT {
+    background-color: #000555;
+    left: 18.552em;
+}
+
+#GT {
+    background-color: #876789;
+    left: 20.46em;
+}
+
+#QS {
+    background-color: #879485;
+    left: 22.4em;
+}
+
+/*
+*  Row 3
+*/
+
+.row3 {
+    bottom: 4.6em;
+    width: 1.82em;
+    background-color: gray;
+}
+
+#Enter {
+    width: 4em;
+    background-color: blue;
+    left: 24.82em;
+}
+
+#Quotes {
+    left: 22.9em;
+    background-color: #205;
+}
+
+#Colon {
+    background-color: #902909;
+    left: 21em;
+}
+/*
+*  Row 3 Letters
+*/
+#L {
+    left: 19.1em;
+    background-color: #129390;
+}
+
+#K {
+    background-color: #667;
+    left: 17.2em;
+}
+
+#J {
+    left: 15.3em;
+    background-color: #678900;
+}
+
+#H {
+    left: 13.4em;
+    background-color: #149654;
+}
+
+#G {
+    left: 11.49em;
+    background-color: #990129;
+}
+
+#F {
+    left: 9.6em;
+    background-color: #466499;
+}
+
+#D {
+    left: 7.7em;
+    background-color: #993989;
+}
+
+#S {
+    left: 5.8em;
+    background-color: #092957;
+}
+
+#A {
+    left: 3.9em;
+    background-color: #942739;
+}
+
+#Caps {
+    width: 3.2em;
+    left: .6em;
+    background-color: #087899;
+}
+
+/* Row 2*/
+
+.row2 {
+    bottom: 6.6em;
+    width: 1.82em;
+    background-color: gray;
+}
+
+#DS {
+    left: 26.2em;
+    background-color: #986126;
+    width: 2.5em;
+}
+
+#RB {
+    left: 24.3em;
+    background-color: #229485;
+}
+
+#LB {
+    left: 22.35em;
+    background-color: #061549;
+}
+
+#Delete{
+    left: 30.0em;
+    background-color: salmon;
+}
+
+#End {
+    left: 31.92em;
+    background-color: lawnGreen;
+}
+
+#PDown{
+    left: 33.83em;
+    background-color: peru;
+}
+
+#P {
+    left: 20.4em;
+    background-color: #982367;
+}
+
+#O {
+    left: 18.56em;
+    background-color: #097827;
+}
+
+#I {
+    left: 16.67em;
+    background-color: #982;
+}
+
+#U {
+    left: 14.78em;
+    background-color: #159;
+}
+
+#Y {
+    left: 12.85em;
+    background-color: #900;
+}
+
+#T {
+    left: 11em;
+    background-color: #088;
+}
+
+#R {
+    left: 9em;
+    background-color: #805;
+}
+
+#E {
+    left: 7.2em;
+    background-color: #082;
+}
+
+#W {
+    left: 5.23em;
+    background: black;
+}
+
+#Q {
+    left: 3.3em;
+    background-color: royalBlue;
+}
+
+#TAB {
+    width: 3em;
+    left: .5em;
+}
+
+/* Row 1 */
+.row1 {
+    bottom: 8.512em;
+    width: 1.815em;
+    background-color: gray;
+    left: .4em;
+}
+
+#Insert {
+    left: 30em;
+    background-color: peachPuff;
+}
+
+#Home {
+    left: 31.9em;
+    background-color: royalBlue;
+}
+
+#PUP {
+    left: 33.8em;
+    background-color: orange;
+}
+
+#backspace {
+    left: 25.3em;
+    width: 3.53em;
+    background-color: #094499;
+}
+
+#Plus {
+    left: 23.34em;
+    background-color: #802;
+}
+
+#Dash {
+    left: 21.45em;
+    background-color: blue;
+}
+
+#n0 {
+    left: 19.56em;
+    background-color: yellow;
+}
+
+#n9 {
+    left: 17.67em;
+    background-color: greenYellow;
+}
+
+#n8 {
+    left: 15.8em;
+    background-color: #606;
+}
+
+#n7 {
+    left: 14em;
+    background-color: #228455;
+}
+
+#n6 {
+    left: 12em;
+    background-color: burlyWood;
+}
+
+#n5 {
+    left: 10.05em;
+    background-color: royalBlue;
+}
+
+#n4 {
+    left: 8.2em;
+    background-color: #452288;
+}
+
+#n3 {
+    left: 6.31em;
+    background-color: #047;
+}
+
+#n2 {
+    left: 4.4em;
+    background-color: red;
+}
+
+#n1 {
+    left: 2.5em;
+    background-color: #660;
+}
+
+#Tilde {
+    left: .64em;
+    background-color: #098923;
+}
+
+
+
+/*
+*  Utils
+*/
+.tempHide {
+    display: none;
+}
+
+.selected {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}

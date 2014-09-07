@@ -1,0 +1,9 @@
+<form id="searchPForm" action="/programs/search/" method="GET">
+            <a href="/"><p id="colorize">KEYSHORTS</p></a>
+            <table><tr>
+                {% for field in searchProgramForm %}
+                    <td>{{field}}</td>
+                {% endfor %}
+                <td><input id="submit" type="image" src="/static/img/index/magnifier.png" /></td>
+            </table>
+        </form>

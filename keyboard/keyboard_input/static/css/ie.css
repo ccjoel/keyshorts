@@ -1,0 +1,209 @@
+/* 
+    Document   : ie
+    Created on : Oct 17, 2012, 12:05:03 AM
+    Author     : Joel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#keyboard {
+    width: 57em;
+    height: 17.9em;
+}
+
+.key {
+    height: 2.5em;
+    width:2.5em;
+}
+
+.letters {
+    width: 2.25em;
+}
+
+#F1 {
+    left: 4.7em;
+    background-color: blue;
+}
+
+#F2 {
+    left: 7.23em;
+    background-color: green;
+}
+#F3 {
+    left: 9.50em;
+    background-color: yellow;
+}
+#F4 {
+    left: 11.85em;
+    background-color: black;
+}
+#F5 {
+    left: 15.45em;
+    background-color: orange;
+}
+#F6 {
+    left: 18em;
+    background-color: brown;
+}
+#F7 {
+    left: 20.4em;
+    background-color: silver;
+}
+#F8 {
+    left: 22.7em;
+    background-color: gold;
+}
+#F9 {
+    left: 26.5em;
+    background-color: purple;
+}
+#F10 {
+    left: 29em;
+    background-color: magenta;
+}
+#F11 {
+    left: 31.34em;
+    background-color: cyan;
+}
+#F12 {
+    left: 33.8em;
+    background-color: firebrick;
+}
+
+/*
+* Bottom Keys
+*/
+
+.bottomKeys {
+    bottom: .35em;
+    width: 2.7em;
+    height: 2.3em;
+}
+
+#LCtrl{
+    left: .56em;
+    width: 3.5em;
+    background-color: red;
+}
+
+#LWin{
+    left: 4.3em;
+    background-color: yellow;
+}
+
+#LAlt{
+    left: 7.4em;
+    background-color: blue;
+}
+
+/*
+*  Row 4
+*/
+
+.row4 {
+    bottom: 2.9em;
+}
+
+/*Row 4 Letters*/
+
+#Z {
+    background-color: black;
+    left: 6.5em;
+}
+
+#X {
+    background-color: orange;
+    left: 8.9em;
+}
+
+#C {
+    background-color: brown;
+    left: 11.2em;
+}
+
+#V {
+    background-color: gray;
+    left: 13.64em;
+}
+
+#B {
+    background-color: gold;
+    left: 16em;
+}
+
+#N {
+    background-color: purple;
+    left: 18.4em;
+}
+
+#M {
+    background-color: fuchsia;
+    left: 20.8em;
+}
+
+/*Row 4 Other*/
+
+#LSHIFT {
+    left: 0.7em;
+    background-color: green;
+    width: 5.6em;
+}
+
+#RShift {
+    left: 30.35em;
+    background-color: green;
+    width: 5.7em;
+}
+
+#LT {
+    background-color: #000555;
+    left: 23.25em;
+}
+
+#GT {
+    background-color: #876789;
+    left: 25.5em;
+}
+
+#QS {
+    background-color: #879485;
+    left: 28em;
+}
+
+/*
+*  Row 3
+*/
+
+.row3 {
+    bottom: 5.3em;
+    width: 2.3em;
+    background-color: gray;
+}
+
+#Enter {
+    width: 5.1em;
+    background-color: blue;
+    left: 31em;
+}
+
+#Quotes {
+    left: 28.7em;
+    background-color: #205;
+}
+
+#Colon {
+    background-color: #902909;
+    left: 26.3em;
+}
+
+#L {
+    left: 23.9em;
+    background-color: #129390;
+}
+
+#K {
+    background-color: #667;
+    left: 21.55em;
+}
+
+

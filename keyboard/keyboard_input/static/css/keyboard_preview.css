@@ -1,0 +1,27 @@
+/* 
+    Document   : keyboard_out.css
+    Created on : Dec 2, 2012, 11:36:34 AM
+    Author     : Joel Quiles Baker
+    Description:
+        Keyboard css for program profile.
+*/
+
+root { 
+    display: block;
+}
+
+#keyboard {
+    /*position: relative;*/
+    top: 1em;
+    left: 1em;
+}
+
+.key {
+    display: none;
+}
+
+#tooltip {
+    margin: auto;
+    position: absolute;
+    right: -20em;    
+}

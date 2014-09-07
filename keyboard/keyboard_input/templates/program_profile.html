@@ -1,0 +1,67 @@
+<html>
+    <head>
+    <title>Keyboards - Program Profile</title>
+    <link rel=StyleSheet href="/static/css/keyboard_out.css" type="text/css" media=screen>
+    <link rel='stylesheet' href='/static/css/index.css'>
+    <link rel=StyleSheet href="/static/css/program_profile.css" type="text/css" media=screen>
+    
+    {% include 'login.html' %}
+
+    {% include 'searchBar.html' %}
+
+        {% include 'output.html' %}
+
+        <div id="program-profile">
+            <!-- Program Info -->
+            <div class="clearfix" style="width:900px">
+            
+            <div class="left">
+            <h1> {{ program.name }} </h1><br />
+            <p> {{ program.desc }} </p>
+            <p> {{ program.version }}</p>
+            </div><!--left-->
+
+            <!-- Scheme Info -->
+            {% if schemes %}
+
+            <div class="right">
+            <h1>Select Scheme</h1><br />
+
+            {% if schemes_len > 1 %}
+            <select id="whichScheme">
+                {% for scheme in schemes %}
+                <option value="{{scheme.id}}">{{ scheme.name }}</option>
+                {% endfor %}
+            </select>
+            {% else %}
+            <select id="whichScheme">
+                {% for scheme in schemes %}
+                <option value="{{first_scheme.id}}">{{ scheme.name }}</option>
+                {% endfor %}
+            </select>
+            {% endif %}
+            {%if isAuth %}
+            <a  id="editSchemeLink" href="/keyboard/input/{{first_scheme.id}}">Edit</a>
+            <a href="/schemes/create/{{program.id}}" id="create-link">Create new</a>
+             {% endif %}
+            <br /><br />
+            <p id="currentSchemeDesc">{{ first_scheme.desc }}</p>
+
+            </div><!--right-->
+            </div><!--clearfix-->
+            <br />
+            <div id="filter-keys" class="clearfix">Search by action: <input id="searchAction" style="float:left" type="text" /><div id="cancel-search" float="right">X</div></div>
+
+            <div id="autoComplete" style="display:none">
+                <ul id="autoCompleteList"></ul>
+            </div>
+
+            {% else %}
+            {{ error }}
+            <a href="/schemes/create/{{program.id}}">Create One</a>
+            {% endif %}
+
+        </div><!--program-profile-->
+    
+    </body>
+</html>

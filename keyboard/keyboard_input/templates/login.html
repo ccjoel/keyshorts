@@ -1,0 +1,24 @@
+<div id ="headerLogin">
+    {% if isAuth %}
+        <p>Logged in as {{ user.username }} <a href="/logout/">Log out</a></p>
+    {% else %}
+        <form action="/login/" method="POST">{% csrf_token %}
+            <table>
+                <tr>
+                    {% for field in loginForm %}
+                        <td>{{field.errors}}</td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp; {{field.label_tag}} {{ field }}</td>
+                    {% endfor %}
+                    <td><input id="loginsubmit" type="submit" value="Log In" /></td>
+                </tr>
+            </table>
+        </form>
+    {% endif %}
+
+    {% if Msg %}
+    {{ Msg }}
+    {% endif %}
+</div><!--header-->
+
+
+

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    color: rgba(48, 46, 43, 0.75);
+}
+
+input {
+    text-transform: none;
+}
+
+textarea {
+    max-width: 200px; max-height: 100px;
+    text-transform: none;
+}
+
+input[type="text"], input[type="password"], textarea, select {
+    outline: none;
+}
+
+@font-face {
+    font-family: helvetica-bold;
+    src: local(helvetica-bold), url('/static/fonts/helvetica-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: mostwasted;
+    src: local(mostwasted), url('/static/fonts/mostwasted.ttf') format('opentype');
+}
+
+#colorize {
+    color: rgba(30, 20, 37, 0.3);
+    font-family: helvetica-bold;
+    font-size:40px;
+}
+
+body {
+    text-align: center;
+}
+
+#cancel-search {
+    font-family: helvetica-bold;
+    color: rgb(248, 83, 96);
+    text-align: right;
+    cursor: pointer;
+    width: 20.8em;
+    line-height: 2em;
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+nav {
+
+}
+
+#headerLogin {
+    float: right;
+    margin-right: 3em;
+    margin-top: 1em;
+}
+
+#LOGO {
+    font-size: 3em;
+    font-family: mostwasted;
+    font-size:100px;
+    color: rgba(223, 65, 65, 0.34);
+    text-align: right;
+    margin-bottom: -25px;
+}
+
+p.required {
+    font-weight: bold;
+    color: red;
+}
+
+.errorlist {
+    list-style: none;
+}
+
+.errorList li {
+    text-transform: none;
+}
+
+#wrapper {
+    min-width: 300px;
+    max-width: 87%;
+    margin: auto;
+    padding: 50px 45px 30px 45px;
+    z-index:15;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    height: 42px;
+    padding-top: 10px;
+    border-bottom: 2px solid #C4DAF8/*E9E9DC*/;
+    background: white/*#E9E9E9 /*#F0F0F0*/;	
+    position: absolute;
+    z-index:15;
+    /*background: -moz-linear-gradient(37% 100% 90deg,#3D3F40, #1C1C1C, #323138 100%);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3B3B3B), to(#1C1C1C), color-stop(.6,#383838));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3B3B3B', endColorstr='#1C1C1C');*/
+}
+
+::-webkit-scrollbar {
+    width: .5em;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background: white;
+}

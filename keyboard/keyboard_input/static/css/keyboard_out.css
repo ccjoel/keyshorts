@@ -1,0 +1,47 @@
+/* 
+Document   : keyboard_out.css
+Created on : Dec 2, 2012, 11:36:34 AM
+Author     : Joel Quiles Baker
+Description:
+Keyboard css for program profile.
+*/
+
+root { 
+    display: block;
+}
+
+#tooltip {
+    margin: auto;
+    top: 27.2em;
+    position: absolute;
+    margin-left: 5em;
+}
+
+#program-profile {
+    text-align: left;
+}
+
+#keyboard {
+    /*position: relative;*/
+    top: 36em;
+    left: 3.4em;
+}
+
+.key {
+    display: none;
+}
+
+#autocomplete {
+    position: absolute;
+    top: 13em;
+    left: 3em;
+    width: 14.8em;
+    background: rgba(255, 255, 255, 0.69);
+    z-index: 1000;
+    border: 1px solid rgb(168, 168, 235);
+}
+
+#autoCompleteList {
+    list-style: none;
+}
+

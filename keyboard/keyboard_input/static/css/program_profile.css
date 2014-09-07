@@ -1,0 +1,81 @@
+
+#program-profile {
+    text-align: left;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 76em;
+    height: 38em;
+    margin: auto;
+    padding: 2em;
+    /*border: 2px solid #1A1717;*/
+    margin-top: 6.7em;
+    left:2em;
+}
+
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+.left{
+    float: left;
+}
+
+.right{
+    float:right;
+}
+
+#searchPForm {
+    top: 3em;
+    margin: auto;
+    margin-left: 3.3em;
+    left:0;
+}
+
+#create-link {
+    font-size:10;
+    vertical-align: top;
+}
+
+#editSchemeLink {
+    font-size:10;
+    font-weight: normal;
+    vertical-align: top;
+}
+
+#currentSchemeName {
+    float: left;
+    font-weight: bold;
+}
+
+
+#currentSchemeDesc {
+    text-transform: none;
+}
+
+
+#filter-keys {
+    font-size: 12;
+    position: absolute;
+    left: 3.4em;
+}
+
+#searchAction {
+    font-size: 20;
+}
+
+#keyTitle {
+    text-transform: none;
+    font-size: 15;
+}
+
+#program-profile > h1 {
+    font-family: helvetica-bold;
+}
+
+#shortcutDesc {
+    text-transform: none;
+}
